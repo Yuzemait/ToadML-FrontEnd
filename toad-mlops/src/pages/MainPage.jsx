@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Inference from "../components/Inference";
 import History from "../components/History";
 import About from "../components/About";
+import Footer from "../components/Footer";
 
 import { useState } from "react";
 
@@ -25,6 +26,7 @@ export default function MainPage({ user, setUser }) {
       <div id="about" className="min-h-screen p-6 scroll-mt-24 bg-white">
         <About />
       </div>
+      <Footer />
     </div>
   );
 }

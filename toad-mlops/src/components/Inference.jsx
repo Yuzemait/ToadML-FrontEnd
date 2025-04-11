@@ -70,8 +70,8 @@ export default function Inference({ addInferenceToHistory }) {
         </div>
       )}
 
-      <button onClick={handleSubmit} style={{ marginTop: "16px", padding: "8px 16px" }}>
-        Enviar imagen
+      <button className="send-img-button" onClick={handleSubmit} style={{ marginTop: "16px", padding: "8px 16px" }}>
+        Enviar imagen 🖼️
       </button>
 
       {result && (

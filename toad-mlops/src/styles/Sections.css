@@ -1,6 +1,7 @@
 section {
     padding: 100px 24px 48px;
-    min-height: 50vh;
+    min-height: 20vh;
+    max-height: 80vh;
     text-align: center;
   }
   
