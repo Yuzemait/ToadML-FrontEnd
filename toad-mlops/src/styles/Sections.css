@@ -1,0 +1,9 @@
+section {
+    padding: 100px 24px 48px;
+    min-height: 50vh;
+    text-align: center;
+  }
+  
+section:nth-child(even) {
+background-color: blue;
+}

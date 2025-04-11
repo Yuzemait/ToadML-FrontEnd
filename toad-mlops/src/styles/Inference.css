@@ -1,0 +1,12 @@
+#inference img {
+    border-radius: 4px;
+  }
+  
+  #inference button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
