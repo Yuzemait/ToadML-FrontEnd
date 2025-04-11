@@ -61,9 +61,10 @@ npm install
 
 # Ejecutar en desarrollo
 npm run dev
+```
 
 ## 📁 Estructura del Proyecto
-
+bash```
 toad-mlops/
 ├── public/
 ├── src/
@@ -80,6 +81,7 @@ toad-mlops/
 │   └── App.jsx
 ├── package.json
 └── README.md
+```
 
 ## 👥 Equipo
 
