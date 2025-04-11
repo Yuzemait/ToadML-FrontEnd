@@ -11,15 +11,16 @@ export default function Navbar({ user, setUser }) {
     };
   
     return (
-      <nav className="">
-        <div className="">
-          <button onClick={() => handleScroll("inference")}>Inferencia</button>
-          <button onClick={() => handleScroll("history")}>Historial</button>
-          <button onClick={() => handleScroll("about")}>About</button>
+      <nav className="" id="navbar">
+        <div className="navbar-left">
+          <button className="logo-button" onClick={() => handleScroll("inference")}><img src="/mushroom.webp" alt="Logo" className="navbar-logo" /></button>
+          <button className="nav-button" onClick={() => handleScroll("inference")}>Inferencia</button>
+          <button className="nav-button" onClick={() => handleScroll("history")}>Historial</button>
+          <button className="nav-button" onClick={() => handleScroll("about")}>About</button>
         </div>
         <div>
-          <span className="">{user?.email}</span>
-          <button onClick={logout}>Cerrar sesión</button>
+          <span className="navbar-right">{user?.email}</span>
+          <button className="nav-button" onClick={logout}>Cerrar sesión</button>
         </div>
       </nav>
     );

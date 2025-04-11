@@ -19,7 +19,7 @@ img {
     border: 1px solid #ccc;
 }
 
-button {
+.download-button {
     padding: 12px 20px;
     background-color:#49de3d; 
     font-weight: bold;

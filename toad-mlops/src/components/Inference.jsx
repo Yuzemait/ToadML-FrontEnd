@@ -7,6 +7,10 @@ export default function Inference({ addInferenceToHistory }) {
   const [previewUrl, setPreviewUrl] = useState(null);
   const [result, setResult] = useState(null);
 
+  if (!previewUrl) {
+    setPreviewUrl("/default-image-5-1.jpg");
+  }
+
   const handleImageUpload = (e) => {
     const file = e.target.files[0];
     setImage(file);
@@ -52,7 +56,7 @@ export default function Inference({ addInferenceToHistory }) {
   };
 
   return (
-    <section id="inference">
+    <section id="inference" style={{marginTop: "16px"}}>
       <h2>Sección de Inferencia</h2>
 
       <input type="file" accept="image/*" onChange={handleImageUpload} />

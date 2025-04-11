@@ -41,7 +41,7 @@ export default function History({ history = [] }) {
               <td>{entry.result}</td>
               <td>{entry.accuracy}%</td>
               <td>
-                <button
+                <button className="download-button"
                   onClick={() => handleDownload(entry.img, entry.imgfile)}
                   
                 >
