@@ -8,6 +8,7 @@ export default function About() {
         <li>Integrante 2  - Uri</li>
         <li>Integrante 3  - Marian</li>
         <li>Integrante 4  - Jose Andres Cota</li>
+        <li>Integrante 5  - Rob</li>
 
       </ul>
       <p><strong>Dataset:</strong> <a href="https://link-del-dataset" target="_blank">Ver aquí</a></p>
