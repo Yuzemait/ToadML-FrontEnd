@@ -64,7 +64,7 @@ npm run dev
 ```
 
 ## 📁 Estructura del Proyecto
-bash```
+```bash
 toad-mlops/
 ├── public/
 ├── src/
